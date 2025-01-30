@@ -1,0 +1,262 @@
+/* Basic reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color:black; 
+    padding: 15px 0; 
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    justify-content: center; 
+    list-style: none; 
+  }
+  
+  
+  .nav-links li {
+    margin: 0 15px; 
+  }
+  
+  
+  .nav-links a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: color 0.3s ease; 
+    font-weight: 700;
+  }
+  
+  .nav-links a:hover {
+    color: #f39c12; /
+  }
+  
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    height: 100vh;
+  }
+  
+ 
+  .box {
+    width: 250px; 
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px; 
+    margin: 10px;
+    position: relative;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; 
+  }
+  
+  
+
+  
+  .box:hover {
+    
+    transform: scale(1.2);
+   
+  }
+  
+  .box1:hover {
+    transform: scale(1.2); 
+ 
+  }
+  .box2:hover {
+    transform: scale(1.2); 
+  }
+  
+  .box3:hover {
+    transform: scale(1.2); 
+  }
+  
+  .box4:hover {
+    transform: scale(1.2); 
+  }
+  
+  .box5:hover {
+    transform: scale(1.2); 
+  }
+  
+  .box6:hover {
+    transform: scale(1.2);
+  }
+
+
+/* Text to animate */
+.animated-text {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    animation: moveDown 2s ease-in-out infinite; 
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes moveDown {
+    20% {
+      transform: translateY(-100%); 
+    }
+    50% {
+      transform: translateY(0); 
+    }
+    100% {
+      transform: translateY(100%); 
+    }
+  }
+
+  .fade-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: fadeInOut 3s infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+  .bounce-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: bounce 1s infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .slide-text {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .color-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: colorChange 4s infinite;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: red;
+    }
+    25% {
+      color: yellow;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color: blue;
+    }
+    100% {
+      color: purple;
+    }
+  }
+
+  .rotate-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: rotateText 5s infinite linear;
+  }
+  
+  @keyframes rotateText {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .zoom-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: zoomIn 2s ease-out forwards;
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .body {
+      width: 90%;
+      padding: 15px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+
+
+ 
+ 
