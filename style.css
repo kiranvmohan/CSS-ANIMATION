@@ -1,11 +1,11 @@
-/* Basic reset */
+
 * {
     margin: 0%;
     padding: 0%;
     
   }
   
-  /* Navbar styles */
+  
   .navbar {
     background-color:black; 
     padding: 15px 0; 
@@ -64,7 +64,7 @@
  
   .box {
     width: 250px; 
-    height: 250px;
+    height: 200px;
     background-color: black;
     color: white;
     display: flex;
@@ -112,7 +112,7 @@
   }
 
 
-/* Text to animate */
+
 .animated-text {
     font-size: 24px;
     color: #333;
@@ -120,7 +120,7 @@
     animation: moveDown 2s ease-in-out infinite; 
   }
   
-  /* Keyframes for the animation */
+
   @keyframes moveDown {
     20% {
       transform: translateY(-100%); 
@@ -255,6 +255,21 @@
       font-size: 14px;
     }
   }
+
+  footer {
+    text-align: center;
+    padding: 5px;
+    background-color:black;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
 
 
 
